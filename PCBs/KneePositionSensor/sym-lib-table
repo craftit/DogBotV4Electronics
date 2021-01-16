@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name TLE5012BE1000FUMA1)(type Legacy)(uri /home/charles/src/BMC/Library/TLE5012BE1000FUMA1.lib)(options "")(descr ""))
+  (lib (name ReactAILogo)(type Legacy)(uri /home/charles/src/BMC/Library/ReactAILogo.lib)(options "")(descr ""))
+  (lib (name KneePositionSensor-rescue)(type Legacy)(uri ${KIPRJMOD}/KneePositionSensor-rescue.lib)(options "")(descr ""))
+)

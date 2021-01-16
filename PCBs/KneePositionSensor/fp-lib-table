@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name LegSensorBoard)(type KiCad)(uri /home/charles/src/BMC/LegSensorBoard)(options "")(descr ""))
+  (lib (name Library)(type KiCad)(uri /home/charles/src/BMC/Library)(options "")(descr ""))
+)

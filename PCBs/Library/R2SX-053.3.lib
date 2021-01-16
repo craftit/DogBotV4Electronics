@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# R2SX-053.3
+#
+DEF R2SX-053.3 PS 0 40 Y Y 1 L N
+F0 "PS" -400 320 50 H V L BNN
+F1 "R2SX-053.3" -400 -450 50 H V L BNN
+F2 "CONV_R2SX-053.3" 0 0 50 H I L BNN
+F3 "Recom Power" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN
+F5 "8.0mm" 0 0 50 H I L BNN
+F6 "1/2019" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 400 300 400 -400 N
+P 2 0 0 10 400 -400 -400 -400 N
+P 2 0 0 10 -400 -400 -400 300 N
+P 2 0 0 10 -400 300 400 300 N
+X +VIN 2 -600 200 200 R 40 40 0 0 I 
+X +VOUT 7 600 200 200 L 40 40 0 0 O 
+X NC 4 600 0 200 L 40 40 0 0 N 
+X -VIN 1 -600 -300 200 R 40 40 0 0 I 
+X -VOUT 5 600 -300 200 L 40 40 0 0 O 
+X NC1 10 600 -100 200 L 40 40 0 0 N 
+ENDDRAW
+ENDDEF
+#
+# End Library

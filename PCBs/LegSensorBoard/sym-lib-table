@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name MAX11254ATJ_T)(type Legacy)(uri ${KIPRJMOD}/../Library/MAX11254ATJ_T.lib)(options "")(descr ""))
+  (lib (name ReactAILogo)(type Legacy)(uri /home/charles/src/BMC/Library/ReactAILogo.lib)(options "")(descr ""))
+  (lib (name LegSensorBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/LegSensorBoard-rescue.lib)(options "")(descr ""))
+)

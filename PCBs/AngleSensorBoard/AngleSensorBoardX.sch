@@ -1,0 +1,307 @@
+EESchema Schematic File Version 4
+LIBS:AngleSensorBoard-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5C97495C
+P 6550 3050
+F 0 "C?" H 6665 3096 50  0000 L CNN
+F 1 "100n" H 6665 3005 50  0000 L CNN
+F 2 "" H 6588 2900 50  0001 C CNN
+F 3 "~" H 6550 3050 50  0001 C CNN
+	1    6550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C975165
+P 6450 2300
+F 0 "#PWR?" H 6450 2150 50  0001 C CNN
+F 1 "+3.3V" H 6465 2473 50  0000 C CNN
+F 2 "" H 6450 2300 50  0001 C CNN
+F 3 "" H 6450 2300 50  0001 C CNN
+	1    6450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C975590
+P 6500 3850
+F 0 "#PWR?" H 6500 3600 50  0001 C CNN
+F 1 "GND" H 6505 3677 50  0000 C CNN
+F 2 "" H 6500 3850 50  0001 C CNN
+F 3 "" H 6500 3850 50  0001 C CNN
+	1    6500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AngleSensorBoard-rescue:TLE5012BE1000FUMA1-TLE5012BE1000FUMA1 U?
+U 1 1 5C9760CD
+P 4750 3050
+F 0 "U?" H 4750 3820 50  0000 C CNN
+F 1 "TLE5012BE1000FUMA1" H 4750 3729 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 4750 3050 50  0001 L BNN
+F 3 "" H 4750 3050 50  0001 L BNN
+F 4 "Infineon Technologies" H 4750 3050 50  0001 L BNN "Field4"
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2300 6450 2550
+Wire Wire Line
+	6450 2550 6250 2550
+Wire Wire Line
+	6450 2550 6550 2550
+Wire Wire Line
+	6550 2550 6550 2900
+Connection ~ 6450 2550
+Wire Wire Line
+	6550 3550 6550 3200
+Wire Wire Line
+	6250 3550 6500 3550
+Wire Wire Line
+	6500 3850 6500 3550
+Connection ~ 6500 3550
+Wire Wire Line
+	6500 3550 6550 3550
+$Comp
+L Connector_Generic:Conn_01x07 J?
+U 1 1 5C99BDED
+P 1450 3100
+F 0 "J?" H 1368 2575 50  0000 C CNN
+F 1 "Controller" H 1368 2666 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53254-0770_07x2.00mm_Angled" H 1450 3100 50  0001 C CNN
+F 3 "~" H 1450 3100 50  0001 C CNN
+	1    1450 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C9BC800
+P 2000 2500
+F 0 "#PWR?" H 2000 2250 50  0001 C CNN
+F 1 "GND" H 2005 2327 50  0000 C CNN
+F 2 "" H 2000 2500 50  0001 C CNN
+F 3 "" H 2000 2500 50  0001 C CNN
+	1    2000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2500 2000 2450
+Wire Wire Line
+	2000 2450 1750 2450
+Wire Wire Line
+	1750 2450 1750 2800
+Wire Wire Line
+	1750 2800 1650 2800
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9BD2F2
+P 2250 2400
+F 0 "#PWR?" H 2250 2250 50  0001 C CNN
+F 1 "+3.3V" H 2265 2573 50  0000 C CNN
+F 2 "" H 2250 2400 50  0001 C CNN
+F 3 "" H 2250 2400 50  0001 C CNN
+	1    2250 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2400 2250 2900
+Wire Wire Line
+	2250 2900 1650 2900
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C9BDC55
+P 1400 3900
+F 0 "J?" H 1318 3575 50  0000 C CNN
+F 1 "Temp" H 1318 3666 50  0000 C CNN
+F 2 "" H 1400 3900 50  0001 C CNN
+F 3 "~" H 1400 3900 50  0001 C CNN
+	1    1400 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C9BE940
+P 1800 4000
+F 0 "#PWR?" H 1800 3750 50  0001 C CNN
+F 1 "GND" H 1805 3827 50  0000 C CNN
+F 2 "" H 1800 4000 50  0001 C CNN
+F 3 "" H 1800 4000 50  0001 C CNN
+	1    1800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3900 1800 3900
+Wire Wire Line
+	1800 3900 1800 4000
+Wire Wire Line
+	1650 3000 2600 3000
+Wire Wire Line
+	2600 3000 2600 2850
+Wire Wire Line
+	2600 2850 3250 2850
+Wire Wire Line
+	2950 3050 3250 3050
+Wire Wire Line
+	3250 2750 2800 2750
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5C9E0254
+P 1550 5450
+F 0 "J?" H 1470 5125 50  0000 C CNN
+F 1 "Index" H 1470 5216 50  0000 C CNN
+F 2 "" H 1550 5450 50  0001 C CNN
+F 3 "~" H 1550 5450 50  0001 C CNN
+	1    1550 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C9E0348
+P 1900 5650
+F 0 "#PWR?" H 1900 5400 50  0001 C CNN
+F 1 "GND" H 1905 5477 50  0000 C CNN
+F 2 "" H 1900 5650 50  0001 C CNN
+F 3 "" H 1900 5650 50  0001 C CNN
+	1    1900 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5450 1900 5450
+Wire Wire Line
+	1900 5450 1900 5650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9E0774
+P 2200 5200
+F 0 "#PWR?" H 2200 5050 50  0001 C CNN
+F 1 "+3.3V" H 2215 5373 50  0000 C CNN
+F 2 "" H 2200 5200 50  0001 C CNN
+F 3 "" H 2200 5200 50  0001 C CNN
+	1    2200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5350 2200 5350
+Wire Wire Line
+	2200 5350 2200 5200
+NoConn ~ 3250 3150
+NoConn ~ 3250 3250
+NoConn ~ 3250 3350
+Text Label 2000 3300 0    50   ~ 0
+HallC
+Text Label 2000 3200 0    50   ~ 0
+HallB
+Text Label 2000 3100 0    50   ~ 0
+HallA
+Text Label 2000 3000 0    50   ~ 0
+Index
+Text Label 1750 3400 0    50   ~ 0
+Temp
+Wire Wire Line
+	2950 3400 2950 3050
+Wire Wire Line
+	1650 3400 2950 3400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9FC2C3
+P 2500 3650
+F 0 "#PWR?" H 2500 3500 50  0001 C CNN
+F 1 "+3.3V" H 2515 3823 50  0000 C CNN
+F 2 "" H 2500 3650 50  0001 C CNN
+F 3 "" H 2500 3650 50  0001 C CNN
+	1    2500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C9FC32E
+P 2500 3850
+F 0 "R?" H 2570 3896 50  0000 L CNN
+F 1 "10K" H 2570 3805 50  0000 L CNN
+F 2 "" V 2430 3850 50  0001 C CNN
+F 3 "~" H 2500 3850 50  0001 C CNN
+	1    2500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C9FC39F
+P 2500 4250
+F 0 "C?" H 2615 4296 50  0000 L CNN
+F 1 "100n" H 2615 4205 50  0000 L CNN
+F 2 "" H 2538 4100 50  0001 C CNN
+F 3 "~" H 2500 4250 50  0001 C CNN
+	1    2500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C9FD42E
+P 2500 4450
+F 0 "#PWR?" H 2500 4200 50  0001 C CNN
+F 1 "GND" H 2505 4277 50  0000 C CNN
+F 2 "" H 2500 4450 50  0001 C CNN
+F 3 "" H 2500 4450 50  0001 C CNN
+	1    2500 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3300 2850 5550
+Wire Wire Line
+	1750 5550 2850 5550
+Wire Wire Line
+	2250 3800 2250 4050
+Wire Wire Line
+	2250 4050 2500 4050
+Wire Wire Line
+	2500 4050 2500 4100
+Wire Wire Line
+	1600 3800 2250 3800
+Wire Wire Line
+	2500 4000 2500 4050
+Connection ~ 2500 4050
+Wire Wire Line
+	2500 3700 2500 3650
+Wire Wire Line
+	2500 4400 2500 4450
+Wire Wire Line
+	2250 3100 2250 3800
+Connection ~ 2250 3800
+Wire Wire Line
+	1650 3100 2250 3100
+Wire Wire Line
+	1650 3200 2800 3200
+Wire Wire Line
+	2800 2750 2800 3200
+Wire Wire Line
+	2850 3300 1650 3300
+Text Notes 950  3400 0    50   ~ 0
+Brown\n
+Text Notes 950  3300 0    50   ~ 0
+Pink\n
+Text Notes 950  3200 0    50   ~ 0
+Yellow\n
+Text Notes 950  3100 0    50   ~ 0
+Green\n
+Text Notes 950  3000 0    50   ~ 0
+Blue
+Text Notes 950  2900 0    50   ~ 0
+Grey
+Text Notes 950  2800 0    50   ~ 0
+White
+$EndSCHEMATC

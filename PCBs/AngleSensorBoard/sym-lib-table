@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name TLE5012BE1000FUMA1)(type Legacy)(uri ${KIPRJMOD}/../Library/TLE5012BE1000FUMA1.lib)(options "")(descr ""))
+  (lib (name AngleSensorBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/AngleSensorBoard-rescue.lib)(options "")(descr ""))
+  (lib (name ReactAILogo)(type Legacy)(uri ${KIPRJMOD}/../Library/ReactAILogo.lib)(options "")(descr ""))
+)
